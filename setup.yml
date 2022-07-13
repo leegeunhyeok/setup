@@ -1,0 +1,19 @@
+title: setup
+version: 1.0.0
+workflows:
+  setup-xcode:
+    - sh ./scripts/setup-xcode.sh
+  install-brew-packages:
+    - sh ./scripts/install-brew-packages.sh
+  install-oh-my-zsh:
+    - sh ./scripts/install-oh-my-zsh.sh
+# install-nvm:
+#   - sh ./scripts/install-nvm.sh
+# setup-node:
+#   - sh ./scripts/setup-node.sh
+# install-yarn:
+#   - sh ./scripts/install-yarn.sh
+  setup-vim:
+    - sh ./scripts/setup-vim.sh
+  setup-zsh:
+    - sh ./scripts/setup-zsh.sh
